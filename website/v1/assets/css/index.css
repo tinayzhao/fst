@@ -1,0 +1,81 @@
+#content {
+	position: absolute;
+
+	top: 10%;
+	bottom: 10%;
+	left: 10%;
+	right: 5%;
+}
+
+
+
+/* FST DESCRIPTION */
+#fst-desc {
+	position: relative;
+	display: inline-block;
+
+	height: 100%;
+	/* min-width: 70%; */
+}
+
+#title {
+	font-size: 450%;
+	color: #003A70;
+	margin-bottom: 0.5em;
+}
+
+.title-abbr {
+	font-size: 350%;
+	font-weight: 700;
+	line-height: 80%;
+}
+
+#desc {
+    color: #003A70;
+    font-size: 200%;
+    line-height: 180%;
+    opacity: .50;
+}
+
+
+
+
+/* FST ICONS */
+#fst-icons {
+	position: relative;
+	display: inline-block;
+
+	padding-left: 5%;
+
+	width: 15%;
+	height: 90%;
+}
+
+.icon-divider {
+	position: absolute;
+	top: 0em;
+	left: 0em;
+	height: 100%;
+
+	border-left-style: solid;
+	border-left-color: #003A70;
+	border-left-width: 0.5em;
+
+	opacity: 0.12;
+}
+
+.icon-spacing {
+	width: 100%;
+	height: 5%;
+}
+
+.icon {
+	width: 100%;
+	height: 30%;
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+	opacity: 0.5;
+}
