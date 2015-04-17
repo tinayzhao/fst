@@ -5,7 +5,7 @@
 }
 
 #about-title {
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: 700;
 	/* line-height: 64px; */
 	color: #003A70;
@@ -17,6 +17,8 @@
 }
 
 #about-desc {
+	font-size: 15px;
+	margin-top: 20px;
 	height: 70%;
 	overflow: auto;
 }
