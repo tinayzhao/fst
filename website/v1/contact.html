@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'> -->
+	<!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'> -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/contact.css">
+
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script>
+
+		$(".content-body").ready(function() {
+		// $(".content-body").hide();
+		$(".content-body").fadeIn(500);
+	});
+
+	</script> 
+
+	<title>Contact Us</title>
+</head>
+
+<body> 
+	<div align = "center">
+		<div class = "content-body">
+			<div id = "content">
+				<div id = "about-title">
+					Contact Us!
+				</div>
+				<div id = "about-desc">
+					We're happy to answer any questions or comments you may have.
+				</div>
+				<div id = "forms">
+					<form name="htmlform" method="post" action="html_form_send.php">
+						<table width="450px">
+						</tr>
+						<tr>
+							<td valign="top">
+								<label id = "label" for="first_name">Name *</label>
+							</td>
+							<td valign="top">
+								<input  type="text" name="first_name" maxlength="50" size="30" placeholder = "Your Name">
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<label id = "label" for="email">Email Address *</label>
+							</td>
+							<td valign="top">
+								<input  type="text" name="email" maxlength="80" size="30" placeholder = "Your Email Address">
+							</td>
+
+						</tr>
+						<tr>
+							<td valign="top">
+								<label id = "label" for="telephone">Phone # </label>
+							</td>
+							<td valign="top">
+								<input  type="text" name="telephone" maxlength="30" size="30" placeholder = "Your Phone Number">
+							</td>
+						</tr>
+						<tr>
+							<td valign="top">
+								<label id = "label" for="comments">Comments *</label>
+							</td>
+							<td valign="top">
+								<textarea  name="comments" maxlength="1000" cols="44" rows="6"></textarea>
+							</td>
+
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align:center">
+								<button type="submit">SUBMIT</button>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+
+
+<div class="navbar">
+	<div class="navbar-item navbar-logo"><img src="assets/img/logo.png"></div>
+
+	<!-- nav links -->
+	<a href="index.html"><div class="navbar-item navbar-menuitem">Home</div></a>
+	<a href="about.html"><div class="navbar-item navbar-menuitem">About</div></a>
+	<!-- <a href="officers.html"><div class="navbar-item navbar-menuitem">Officers</div></a> -->
+	<a href="contact.html"><div class="navbar-item navbar-menuitem">Contact</div></a>
+
+	<div class="navbar-item navbar-right">@ UC Berkeley</div>
+</div>
+</body>
+</html>
