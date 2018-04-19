@@ -1,76 +1,427 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'> -->
-	<!-- <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'> -->
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'> -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<title>Food Science and Tech @ UCB</title>
+	<link href = "css/styles.css" rel = "stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 
-	<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-	<script src="assets/js/flowtype.js"></script>
-	<script>
+	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 
-	$(".content-body").ready(function() {
-		/*$(".content-body").flowtype({
-			minimum   : 500,
-			maximum   : 1200,
-			minFont   : 5,
-			maxFont   : 40,
-			fontRatio : 115
-		});*/
-		// $(".content-body").hide();
-		$(".content-body").fadeIn(500);
-	});
+  	<script src = "js/script.js"></script>
 
-	</script> 
-
-	<title>Food Science Technology @ UC Berkeley</title>
 </head>
-
-
-
-
 <body>
-	<div class="content-body">
-		<div class="content-pane width70 left">
-			<div id="content">
-				<div id="fst-desc" class="width70 left">
-					<div id="title">
-						<span class="title-abbr">F</span>ood<br>
-						<span class="title-abbr">S</span>cience<br>
-						<span class="title-abbr">T</span>echnology
-					</div>
-					<div id="desc">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam mi lorem, eget finibus nulla sodales eu. Curabitur vulputate condimentum nunc id maximus. Nullam lacinia ante ac feugiat fringilla. Sed at imperdiet tellus. Aenean malesuada orci sed ipsum sodales mollis. Etiam tempus risus tellus, a faucibus urna ultricies a. Curabitur dictum nibh a ex porta faucibus id sed libero. Praesent mattis fermentum eleifend.
-					</div>
-				</div>
-				<div id="fst-icons" class="right">
-					<div class="icon-divider"></div>
-					<div class="icon"><img src="assets/img/food-icon.png"></div>
-					<div class="icon-spacing"></div>
-					<div class="icon"><img src="assets/img/science-icon.png"></div>
-					<div class="icon-spacing"></div>
-					<div class="icon"><img src="assets/img/tech-icon.png"></div>
-				</div>
-			</div>
+	<header>
+
+		<div class = "header-text" id = "contact">Contact</div>
+		<div class = "header-text" id = "officers">Officers</div>
+		<div class = "header-text" id = "events">Events</div>
+		<div class = "header-text" id = "about">About</div>
+		<div class = "header-text" id = "home">FST</div>
+	</header>
+
+	<div class="container">
+
+	  <div class="block image" id = "image-1">
+	    <div class="layer"></div>
+	    <div class = "letter" id = "letter-1">Food</div>
+
+	    <div class="p-container">
+
+	      <p class="img-p">
+	        Passionate about <b>FOOD</b>? So are we. We push the boundaries of the culinary arts with cooking challenges and food seminars. Come join us for a meal!
+	      </p>
+	    </div>
+	  </div>
+	  <!-- block -->
+
+	  <div class="block image" id = "image-2">
+	    <div class="layer"></div>
+	    <div class = "letter" id = "letter-2">Sci</div>
+
+	    <div class="p-container">
+
+	      <p class="img-p">
+	        <b>SCIENCE</b> is at the heart of what we do. Change the way you view food with our student-led research opportunities and educational workshops.
+	      </p>
+	    </div>
+	  </div>
+	  <!-- block -->
+
+	  <div class="block image" id = "image-3">
+	    <div class="layer"></div>
+	    <div class = "letter" id = "letter-3">Tech</div>
+	    <div class="p-container">
+
+	      <p class="img-p">
+	        <b>TECHNOLOGY</b> has taken over the world and the food industry is no exception. Join us for tech talks, food hackathons, and more.
+	      </p>
+	    </div>
+	  </div>
+	  <!-- block -->
+
+	</div>
+
+	<div class = "page-wrapper">
+		<div class = "page-entry" id = "entry1"><br>
+			<h1>What is FST?</h1><br>
+			<p>Food Science and Tech at Cal aims to bring together students at UC Berkeley who share a passion for food science and related technologies. We are the first and only food science organization on campus, and work closely with the College of Chemistry and Department of Nutritional Sciences to educate about food related issues.
+
+			During the year we bring in guest speakers and go on factory tours to provide a real-world look into the food industry, conduct student-led research through the College of Chemistry, hold educational workshops to teach about food science concepts, and work together to develop innovative food ideas for competition.
+
+			Our club is open to all UC Berkeley students of any major. Feel free to email us at fstatcal@gmail.com or just drop by any of our meetings.</p><br>
+            <a href = "https://www.facebook.com/groups/806853009409574/" style = "text-decoration: none;"><button class="btn btn-1 btn-1f" id = "btn-join">Join us on Facebook!</button></a>
 		</div>
-		<div class="content-pane width30 right">
-			<img src="assets/img/cucumber-min.jpg">
+
+		<div class = "page-entry" id = "entry2"><br>
+			<h1>Upcoming Events</h1><br>
+			<p>Interested in joining us for an event? Here's what we have planned: </p><br>
+
+			<ul class="event-list">
+
+				<li>
+					<time datetime="2017-09-08 0000">
+						<span class="day">3</span>
+						<span class="month">Apr</span>
+						<span class="year">2018</span>
+						<span class="time">7:00-8:00 PM</span>
+					</time>
+					<div class="info">
+
+						<h2 class="title" align = "center">The Science of Sushi with Chef Kaz</h2>
+
+					</div>
+					<br><br>
+				</li>
+
+
+				<li>
+					<time datetime="2017-09-08 0000">
+						<span class="day">12</span>
+						<span class="month">Apr</span>
+						<span class="year">2018</span>
+						<span class="time">7:00-9:00 PM</span>
+					</time>
+					<div class="info">
+
+						<h2 class="title" align = "center">Perfect Day Talk</h2>
+
+					</div>
+					<br><br>
+				</li>
+				<li>
+					<time datetime="2017-09-08 0000">
+						<span class="day">14</span>
+						<span class="month">Apr</span>
+						<span class="year">2018</span>
+						<span class="time">1:00-3:00 PM</span>
+					</time>
+					<div class="info">
+
+						<h2 class="title" align = "center">Third Culture Bakery Tour</h2>
+
+					</di>
+					<br><br>
+				</li>
+
+
+			</ul>
+
+			<!--Past events
+			<h1>Past Events</h1><br>
+			<p>What's happened recently?</p><br>
+
+			<ul class="event-list"
+
+				<li>
+
+				<li>
+					<time datetime="2015-09-08 0000">
+						<span class="day">7</span>
+						<span class="month">Nov</span>
+						<span class="year">2016</span>
+						<span class="time">7:00 PM</span>
+					</time>
+					<div class="info">
+
+						<h2 class="title" align = "center">Chopped Challenge Fall 2016 </h2>
+
+					</div>
+					<br><br>
+				</li>
+
+
+				<li>
+					<time datetime="2015-09-08 0000">
+						<span class="day">4</span>
+						<span class="month">Oct</span>
+						<span class="year">2016</span>
+						<span class="time">7:00 PM</span>
+					</time>
+					<div class="info">
+
+						<h2 class="title" align = "center">Impossible Foods Tech Talk</h2>
+
+					</div>
+					<br><br>
+				</li>
+
+				<li>
+					<time datetime="2015-09-08 0000">
+						<span class="day">18</span>
+						<span class="month">Oct</span>
+						<span class="year">2016</span>
+						<span class="time">7:00 PM</span>
+					</time>
+					<div class="info">
+
+						<h2 class="title" align = "center">Do It Yourself Popping Boba </h2>
+
+					</div>
+					<br><br>
+				</li>
+
+				<li>
+					<time datetime="2015-09-08 0000">
+						<span class="day">4</span>
+						<span class="month">Nov</span>
+						<span class="year">2016</span>
+						<span class="time">7:00 PM</span>
+					</time>
+					<div class="info">
+
+						<h2 class="title" align = "center">FoodDay: Eat and Greet</h2>
+
+					</div>
+					<br><br>
+				</li>
+
+				<li>
+					<time datetime="2015-09-08 0000">
+						<span class="day">15</span>
+						<span class="month">Nov</span>
+						<span class="year">2016</span>
+						<span class="time">7:00 PM</span>
+					</time>
+					<div class="info">
+
+						<h2 class="title" align = "center">Second General Meeting</h2>
+
+					</div>
+					<br><br>
+				</li>
+
+
+
+				<li>
+					<time datetime="2015-09-08 0000">
+						<span class="day">25</span>
+						<span class="month">Sept</span>
+						<span class="year">2016</span>
+						<span class="time">6:30 PM</span>
+					</time>
+					<div class="info">
+
+						<h2 class="title" align = "center">Dandelion Chocolate Factory Tour</h2>
+
+					</div>
+					<br><br>
+				</li>
+
+			</ul>
+		</div>
+-->
+		<div class = "page-entry" id = "entry3"><br>
+		<h1>Officers</h1><br><br>
+
+    		<div class = "row" id = "row-1">
+                <!-- Officer 1 -->
+                <div class = "flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class = "front">
+                            <div class = "officer" id = "officer-1">
+                                <img src = "assets/clare.png">
+                                <h4> Clare Yue Lou</h4>
+                                <h6> President</h6><br>
+                            </div>
+                        </div>
+                        <div class="back">
+                            Year: Senior <br>
+                            Major: Microbial Biology <br>
+                            Minor: Food System <br>
+                            Fav Food: Breakfast food
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Officer 2 -->
+                <div class = "flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class = "front">
+                            <div class = "officer" id = "officer-1">
+                                <img src = "assets/jennifer.png">
+                                <h4> Jennifer Chang</h4>
+                                <h6> Vice President</h6><br>
+                            </div>
+                        </div>
+                        <div class="back">
+                            Year: Senior <br>
+                            Major: Nutritional Science: Physiology/Metabolism <br>
+                            Fav Food: Ramen
+                        </div>
+                    </div>
+                </div>
+                <!-- Officer 3 -->
+                <div class = "flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class = "front">
+                            <div class = "officer" id = "officer-1">
+                                <img src = "assets/stephanie.png">
+                                <h4> Stephanie Wong</h4>
+                                <h6> Secretary</h6><br>
+                            </div>
+                        </div>
+                        <div class="back">
+                            Year: Sophomore <br>
+                            Major: Undecided <br>
+                            Fav Food: Savory/Sweet Crepes
+                        </div>
+                    </div>
+                </div>
+                <!-- Officer 4 -->
+                <div class = "flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class = "front">
+                            <div class = "officer" id = "officer-1">
+                                <img src = "assets/claudia.png">
+                                <h4> Claudia Wong</h4>
+                                <h6> Treasurer</h6><br>
+                            </div>
+                        </div>
+                        <div class="back">
+                            Year: Sophomore  <br>
+                            Major:  Molecular Environmetal Biology <br>
+														Minor:  Food Systems <br>
+                            Fav Food:
+                        </div>
+                    </div>
+                </div>
+                <!-- Officer 5 -->
+                <div class = "flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class = "front">
+                            <div class = "officer" id = "officer-1">
+                                <img src = "assets/hasti.png">
+                                <h4> Hasti Taghados</h4>
+                                <h6> Events Coordinator</h6><br>
+                            </div>
+                        </div>
+                        <div class="back">
+                            Year: Junior <br>
+                            Major: Nutritional Science: Dietetics <br>
+                            Fav Food: Middle Eastern and Persian
+                        </div>
+                    </div>
+                </div>
+                <!-- Officer 6 -->
+                <div class = "flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class = "front">
+                            <div class = "officer" id = "officer-1">
+                                <img src = "assets/tina.png">
+                                <h4> Tina Zhao</h4>
+                                <h6> Publicity Chair</h6><br>
+                            </div>
+                        </div>
+                        <div class="back">
+                            Year: Sophomore <br>
+                            Major: Chemical Engineering <br>
+                            Fav Food: Scallion Pancakes
+                        </div>
+                    </div>
+                </div>
+                <!-- Officer 7 -->
+                <div class = "flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class = "front">
+                            <div class = "officer" id = "officer-1">
+                                <img src = "assets/ethan.png">
+                                <h4> Ethan Maahs</h4>
+                                <h6> Technology Chair</h6><br>
+                            </div>
+                        </div>
+                        <div class="back">
+                            Year: Junior <br>
+                            Major: MCB - Genetics <br>
+                            Fav Food: Turkey and Rice
+                        </div>
+                    </div>
+                </div>
+                <!-- Officer 8 -->
+                <div class = "flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class = "front">
+                            <div class = "officer" id = "officer-1">
+                                <img src = "assets/william.png">
+                                <h4> William Zhuang</h4>
+                                <h6> Webmaster</h6><br>
+                            </div>
+                        </div>
+                        <div class="back">
+                            Year: Senior <br>
+                            Major: Chemical Engineering <br>
+                            Fav Food: Chicken Katsu
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+
+		</div>
+
+		<div class = "page-entry" id = "entry4">
+            <div class = "game-desc" id = "game-desc-right in-touch">
+            <div>
+                <h1 id = "entry-header-right in-touch">Get In Touch</h1><br>
+
+                    <p>Interested in learning more about what we do? Want to host an infosession with us? Shoot us a message! </p> <br><br>
+
+                    <a href = "mailto:fstatcal@gmail.com" style = "text-decoration: none;"><button class="btn btn-1 btn-1f">MESSAGE</button></a>
+
+                </div>
+            </div>
 		</div>
 	</div>
 
-	<div class="navbar">
-		<div class="navbar-item navbar-logo"><img src="assets/img/logo.png"></div>
-		
-		<!-- nav links -->
-		<a href="index.html"><div class="navbar-item navbar-menuitem">Home</div></a>
-		<a href="about.html"><div class="navbar-item navbar-menuitem">About</div></a>
-		<!-- <a href="officers.html"><div class="navbar-item navbar-menuitem">Officers</div></a> -->
-		<a href="contact.html"><div class="navbar-item navbar-menuitem">Contact</div></a>
+    <footer>
+        <br>
+        Website by <a href = "http://williamzhuang.github.io"> William Zhuang</a>. We are a student group acting independently of the University of California. We take full responsibility for our organization and this website.<a href="https://www.ocf.berkeley.edu/">
+                <img align = "right" src="https://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8.png" alt="Hosted by the OCF" width="98" height="39" style="margin-right:15px; padding-bottom: 15px" />
+                </a>
+    </footer>
 
-		<div class="navbar-item navbar-right">@ UC Berkeley</div>
+	</body>
+
+	<div class="modal-wrapper">
+	  <div class="modal">
+	    <div class="head">
+	      <a class="btn-close trigger" href="javascript:;"></a>
+	      <h2 id = "modal-name">Rochelle Lai</h2>
+	    </div>
+	    <div class="content">
+	    	<p id = "modal-content">I am running to be YOUR Food Science and Tech at Cal President for the 2016-2017 school year. Currently, I am serving you as your Vice President, and I have served you as Secretary since the establishment of the club. Through these two positions, I have garnered a lot of experience as to how clubs are run logistically and what it takes to cast and execute the club vision. It has been rewarding seeing our student organization grow as a community as well as in our curiosity towards the food industry. If elected, I intend to continue this pursuit of learning by actively searching for new club opportunities like competitions and hackathons, as well as maintaining traditions our club has grown to love, like cooking challenges! Even with my extensive experience as a leader of this organization, I am always looking to improve upon existing ideas and am not afraid of change. I look forward to serving this club once more!
+	    	<br><br>
+			TL;DR: Rochelle + Food Science and Tech @ Cal = WOW/AMAZING/FANTASTIC
+			</p>
+	    </div>
+	  </div>
 	</div>
-</body>
+
 </html>
